@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # sets the default token and guild
-TOKEN = os.getenv('YOKbMQoAiJNuNqH5-iQC29MhpPhUdPsh')
+TOKEN = os.getenv('NzUzNzE4NTcyNTUwNzE3NTA2.X1qRHw.M8kuXrb6EozDpeNH1Gn6faxnlns')
 GUILD = os.getenv('https://discord.gg/JaW49Q')
 
 # sets default client to discord main servers
@@ -41,4 +41,4 @@ async def on_member_join(member):
 
 
 # runs the bot on our discord guild
-client.run(YOKbMQoAiJNuNqH5-iQC29MhpPhUdPsh)
+client.run(NzUzNzE4NTcyNTUwNzE3NTA2.X1qRHw.M8kuXrb6EozDpeNH1Gn6faxnlns)
